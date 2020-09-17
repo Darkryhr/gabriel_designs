@@ -75,7 +75,7 @@ nav {
 }
 
 .flex-card {
-    background-color: #222222;
+    background: url(./img/bg2.jpg) center fixed no-repeat;
     width: 100%;
     height: 90vh;
     background-size: cover;
