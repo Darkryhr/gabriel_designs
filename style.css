@@ -216,8 +216,11 @@ nav {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: rgb(245, 225, 47);
   z-index: 1;
+}
+
+.bg-dark {
+  background-color: #222222;
 }
 
 .footer {
