@@ -2,57 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-base.css" />
     <link rel="shortcut icon" href="./img/gab.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navigation</title>
   </head>
   <body class="flex-container">
-    <nav>
-      <div class="logo">
-        <a href="index.html"
-          ><img src="./img/gab.svg" id="gab" alt="gab-logo"
-        /></a>
+    <header>
+      <nav id="nav">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="./img/gab.svg" id="gab" alt="gab-logo"
+          /></a>
+        </div>
+        <ul class="nav_links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <div class="flex-card">
+        <div class="hero">
+          <h1>Hello.</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+            accusamus tempora unde? Tenetur accusamus laborum sequi cum, vero
+            eos ad veritatis minima ipsum ratione dolores. Commodi, nesciunt
+            haha get fucked, gamer exercitationem. Exercitationem dignissimos
+            natus repudiandae minima atque ipsa delectus quae esse unde
+            consequatur?
+          </p>
+          <a href="#">Learn more</a>
+        </div>
       </div>
-      <ul class="nav_links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+      <div class="arrowbox">
+        <a href="#" class="arrow">▼</a>
       </div>
-    </nav>
+    </header>
 
-    <div class="flex-card">
-      <div class="hero">
-        <h1>Hello.</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
-          accusamus tempora unde? Tenetur accusamus laborum sequi cum, vero eos
-          ad veritatis minima ipsum ratione dolores. Commodi, nesciunt haha get
-          fucked, gamer exercitationem. Exercitationem dignissimos natus
-          repudiandae minima atque ipsa delectus quae esse unde consequatur?
-        </p>
-        <button class="btn-hero" id="btn">Learn More</button>
-      </div>
-    </div>
-    <div class="flex-item">
-      <div class="quotebox">
-        <blockquote>"haha just kidding gamer..."</blockquote>
-        <p>-a true meme machine</p>
-      </div>
-    </div>
-    <div class="flex-item bg-dark"></div>
+    <div class="flex-item section"><a href="#">top</a></div>
+    <div class="flex-item bg-dark section"><a href="#">top</a></div>
+    <div class="flex-item"><a href="#">top</a></div>
+    <footer class="section">
+      <p>&copy; Gabriel Lellouche, <span id="date"></span></p>
+    </footer>
 
-    <div class="footer">
-      <h4>&copy; Gabriel Lellouche, 2020</h4>
-    </div>
-
-    <script src="app.js"></script>
-    <script src="scroll.js"></script>
+    <script src="./app.js"></script>
+    <script src="./scroll.js"></script>
   </body>
 </html>
