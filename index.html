@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style-base.css" />
+    <link rel="shortcut icon" href="./img/gab.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navigation</title>
-</head>
-<body class="flex-container">
-    <nav>
+  </head>
+  <body class="flex-container">
+    <header>
+      <nav id="nav">
         <div class="logo">
-            <a href="index.html"><img src="./img/gab.svg" id="gab" alt="gab-logo"></a>
+          <a href="index.html"
+            ><img src="./img/gab.svg" id="gab" alt="gab-logo"
+          /></a>
         </div>
         <ul class="nav_links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-    </nav>
-
-    <div class="flex-card">
+      </nav>
+      <div class="flex-card">
         <div class="hero">
-            <h1>Hello.</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum accusamus tempora unde? Tenetur accusamus laborum sequi cum, vero eos ad veritatis minima ipsum ratione dolores. Commodi, nesciunt exercitationem. Exercitationem dignissimos natus repudiandae minima atque ipsa delectus quae esse unde consequatur?</p>
+          <h1>Hello.</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+            accusamus tempora unde? Tenetur accusamus laborum sequi cum, vero
+            eos ad veritatis minima ipsum ratione dolores. Commodi, nesciunt
+            haha get fucked, gamer exercitationem. Exercitationem dignissimos
+            natus repudiandae minima atque ipsa delectus quae esse unde
+            consequatur?
+          </p>
+          <a href="#">Learn more</a>
         </div>
-    </div>
-    <div class="flex-item"></div>
-    <div class="quotes">
-        <div class="qt">
-            <blockquote>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia facilis distinctio dolore rem delectus dolorum, blanditiis sint error. Odio, provident!"</blockquote>
-            <p>-Some Douche, 2019</p>
-        </div>
-        <div class="qt">
-            <blockquote>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia facilis distinctio dolore rem delectus dolorum, blanditiis sint error. Odio, provident!"</blockquote>
-            <p>-Some Douche, 2019</p>
-        </div>
-        <div class="qt">
-            <blockquote>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia facilis distinctio dolore rem delectus dolorum, blanditiis sint error. Odio, provident!"</blockquote>
-            <p>-Some Douche, 2019</p>
-        </div>
-    </div>
-    <div class="flex-item"></div>
-    <div class="footer">
-        <h4>&copy; Gabriel Lellouche, 2020</h4>
-    </div>
+      </div>
+      <div class="arrowbox">
+        <a href="#" class="arrow">▼</a>
+      </div>
+    </header>
 
-    <script src="app.js"></script>
-</body>
+    <div class="flex-item section"><a href="#">top</a></div>
+    <div class="flex-item bg-dark section"><a href="#">top</a></div>
+    <div class="flex-item"><a href="#">top</a></div>
+    <footer class="section">
+      <p>&copy; Gabriel Lellouche, <span id="date"></span></p>
+    </footer>
+
+    <script src="./app.js"></script>
+    <script src="./scroll.js"></script>
+  </body>
 </html>
